@@ -2,6 +2,7 @@ import Layout from "@/Components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/1222.png";
+import AnimatedText from "@/Components/AnimatedText";
 export default function Home() {
   return (
     <>
@@ -19,17 +20,15 @@ export default function Home() {
                 className="w-[85%] h-auto"
               />
             </div>
-            <div className="w-1/2">
-              <h1>
-                Passionate Deep Learning Enthusiast and Software Developer{" "}
-              </h1>
-              <p>
+            <div className="w-1/2 flex flex-col items-center self-center" >
+              <AnimatedText text="Passionate Deep Learning Enthusiast and Software Developer" className="!text-6xl !text-left" />
+              <p className="my-4 text-base font-medium">
                 Aspiring software developer with a strong foundation in
                 programming and a passion for creating innovative solutions.
                 Strong analytical and problem-solving skills, with a keen
                 attention to detail. Able to work effectively in a team-oriented
                 environment, collaborating with colleagues to deliver
-                high-quality code
+                high-quality code.
               </p>
             </div>
           </div>
