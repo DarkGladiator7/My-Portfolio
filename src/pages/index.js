@@ -3,6 +3,10 @@ import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/1222.png";
 import AnimatedText from "@/Components/AnimatedText";
+import Link from "next/link";
+import { LinkArrow } from "@/Components/Icons";
+import HireMe from "@/Components/HireMe";
+import bulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 export default function Home() {
   return (
     <>
@@ -20,8 +24,11 @@ export default function Home() {
                 className="w-[85%] h-auto"
               />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center" >
-              <AnimatedText text="Passionate Deep Learning Enthusiast and Software Developer" className="!text-6xl !text-left" />
+            <div className="w-1/2 flex flex-col items-center self-center">
+              <AnimatedText
+                text="Passionate Deep Learning Enthusiast and Software Developer"
+                className="!text-6xl !text-left"
+              />
               <p className="my-4 text-base font-medium">
                 Aspiring software developer with a strong foundation in
                 programming and a passion for creating innovative solutions.
@@ -30,9 +37,31 @@ export default function Home() {
                 environment, collaborating with colleagues to deliver
                 high-quality code.
               </p>
+              <div className=" flex items-center self-start mt-2">
+                <Link
+                  href="/resume.pdf"
+                  target={"_blank"}
+                  className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg  text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                  download={true}
+                >
+                  Resume
+                  <LinkArrow className={"w-6 ml-1"} />
+                </Link>
+                <Link
+                  href="mailto:ganeshkrishnadoss@gmail.com"
+                  target={"_blank"}
+                  className="ml-4 text-lg font-medium capitalize text-dark underline"
+                >
+                  Contact
+                </Link>
+              </div>
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className="absolute right-8 bottom-8 inline-block w-24">
+          <Image src={bulb} alt="DG7" className="w-full h-auto "></Image>
+        </div>
       </main>
     </>
   );
