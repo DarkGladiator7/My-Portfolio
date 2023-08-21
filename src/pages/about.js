@@ -5,6 +5,9 @@ import Image from "next/image";
 import React, { useEffect, useRef } from "react";
 import profilepic from "../../public/images/profile/GaneshK.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
+import Skills from "@/Components/Skills";
+import Experience from "@/Components/Experience";
+import Education from "@/Components/Education";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -38,17 +41,18 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText text="Passion Fuels Purpose!" className="mb-16" />
-          <div className="grid w-full grid-cols-8 gap-16">
+          <div className="grid w-full grid-cols-8 gap-16 relative pr-20">
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
                 About Me
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m Ganesh.K, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 1 year of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                client&apos;s visions to life.
+                Hi I&apos;m Ganesh K, a passionate Deep Learning enthusiast, Web
+                developer and UI/UX designer with a passion for creating
+                beautiful, functional, and user-centered digital experiences.
+                With 1 year of experience in the field. I am always looking for
+                new and innovative ways to bring my client&apos;s visions to
+                life.
               </p>
               <p className="my-4 font-medium ">
                 I believe that design is about more than just making things look
@@ -97,6 +101,9 @@ const about = () => {
               </div>
             </div>
           </div>
+          <Skills />
+          <Experience />
+          <Education />
         </Layout>
       </main>
     </>
