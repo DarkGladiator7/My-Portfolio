@@ -34,11 +34,11 @@ const Skills = () => {
         <Skill name="Numpy" x="20vw" y="14vw" />
         <Skill name="HTML" x="-20vw" y="-2vw" />
         <Skill name="CSS" x="-7vw" y="-11vw" />
-        <Skill name="Photoshop" x="-6vw" y="24vw" />
+        <Skill name="Photoshop" x="-5vw" y="23vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
         <Skill name="NextJS" x="-20vw" y="-14vw" />
         <Skill name="Web Design" x="-40vw" y="-5vw" />
-        <Skill name="Figma" x="0vw" y="-21vw" />
+        <Skill name="Figma" x="0vw" y="-20vw" />
         <Skill name="Firebase" x="-25vw" y="18vw" />
         <Skill name="Tailwind CSS" x="-7vw" y="-11vw" />
       </div>
