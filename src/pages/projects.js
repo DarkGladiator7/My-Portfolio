@@ -14,8 +14,11 @@ import project6 from "../../public/images/projects/food.png";
 
 const Project = ({ type, title, img, link, github }) => {
   return (
-    <article className="w-full flex flex-col relative items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative">
-      <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
+    <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative">
+      <div
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
+       rounded-br-3xl "
+      />
       <Link
         href={link}
         target={"_blank"}
@@ -53,8 +56,11 @@ const Project = ({ type, title, img, link, github }) => {
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-3xl p-12 border border-solid relative border-dark bg-light shadow-2xl">
-      <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
+    <article className="w-full flex items-center justify-between rounded-3xl rounded-br-2xl p-12 border border-solid relative border-dark bg-light shadow-2xl">
+      <div
+        className="absolute top-0 -right-4 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark
+       rounded-br-3xl"
+      />
       <Link
         href={link}
         target={"_blank"}
@@ -103,7 +109,7 @@ const projects = () => {
             text="Imagination Trumps Knowledge!"
           />
 
-          <div className="grid grid-cols-12 gap-24">
+          <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
               <FeaturedProject
                 img={project1}
