@@ -5,12 +5,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import {motion} from 'framer-motion'
 import project1 from "../../public/images/projects/ExpenseTracker.png";
 import project2 from "../../public/images/projects/Ecommerce.png";
 import project3 from "../../public/images/projects/library.jpg";
 import project4 from "../../public/images/projects/portfolio.png";
 import project5 from "../../public/images/projects/gastro.jpg";
 import project6 from "../../public/images/projects/food.png";
+
+const FramerImage= motion(Image);
 
 const Project = ({ type, title, img, link, github }) => {
   return (
@@ -24,7 +27,11 @@ const Project = ({ type, title, img, link, github }) => {
         target={"_blank"}
         className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <FramerImage src={img} alt={title} className="w-full h-auto"
+
+        whileHover={{scale:1.05}}
+        transition={{duration:0.2}}
+         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between pt-4">
         <span className="text-primary font-medium text-xl">{type}</span>
@@ -66,7 +73,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         target={"_blank"}
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
       >
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <FramerImage src={img} alt={title} className="w-full h-auto" 
+        whileHover={{scale:1.05}}
+        transition={{duration:0.2}} />
       </Link>
       <div className="w-1/2 flex flex-col items-start justify-between pl-6">
         <span className="text-primary font-medium text-xl">{type}</span>
