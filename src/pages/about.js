@@ -72,6 +72,8 @@ const about = () => {
                 src={profilepic}
                 alt="GaneshK"
                 className="w-full rounded-2xl h-auto "
+                priority
+                sizes="(max-width: 768px) 100vw,(max-width:1200px) 50vw,50vw"
               />
             </div>
             <div className="col-span-2 flex flex-col items-end justify-between">
