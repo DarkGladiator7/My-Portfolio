@@ -171,9 +171,9 @@ const projects = () => {
                 img={project4}
                 title="My Portfolio Website"
                 summary="Crafted with Next.js for seamless navigation, Tailwind CSS for stunning aesthetics, and Framer Motion for captivating animations, this site embodies the fusion of cutting-edge technology and design finesse. Explore a collection of my projects that exemplify innovation and dedication, as I strive to transform ideas into immersive digital experiences."
-                link="https://ecommerce-website-hazel-three.vercel.app"
+                link="https://ganeshkportfolio.vercel.app"
                 type="Featured Project"
-                github="https://github.com/DarkGladiator7/Ecommerce_Website"
+                github="https://github.com/DarkGladiator7/My-Portfolio"
               />
             </div>
             <div className="col-span-6 ">
