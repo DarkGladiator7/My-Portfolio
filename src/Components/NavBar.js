@@ -7,9 +7,9 @@ import {
   DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
   SunIcon,
   MoonIcon,
+  Instagram,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -70,13 +70,13 @@ const NavBar = () => {
           <LinkedInIcon />
         </motion.a>
         <motion.a
-          href="https://in.pinterest.com/ganeshkrishnadoss/"
+          href="https://www.instagram.com/_dark_gladiator_7/"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
           className="w-6 mx-3 bg-light rounded-full"
         >
-          <PinterestIcon />
+          <Instagram />
         </motion.a>
         <motion.a
           href="https://dribbble.com/darkgladiator7"
@@ -91,7 +91,7 @@ const NavBar = () => {
         <button
           onClick={() => setMode(mode === "light" ? "dark" : "light")}
           className={`ml-2 flex items-center justify-center rounded-full p-1 da
-          ${mode === 'light' ? 'bg-dark text-light' : 'bg-light text-dark'}
+          ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
           `}
         >
           {mode === "dark" ? (
