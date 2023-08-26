@@ -33,8 +33,8 @@ const Education = () => {
   });
   return (
     <div className="my-64">
-      <h2 className="font-bold text-8xl text-dark mb-32 w-full text-center">
-        Experience
+      <h2 className="font-bold text-8xl text-dark mb-32 w-full text-center dark:text-light">
+        Education
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative">
         <motion.div
