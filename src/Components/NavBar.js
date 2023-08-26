@@ -205,7 +205,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-2"
             >
               <GithubIcon />
             </motion.a>
@@ -214,7 +214,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 bg-light rounded-full sm:mx-1"
+              className="w-6 mx-3 bg-light rounded-full sm:mx-2"
             >
               <LinkedInIcon />
             </motion.a>
@@ -223,7 +223,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3  bg-light rounded-full dark:bg-dark sm:mx-1"
+              className="w-6 mx-3  bg-light rounded-full dark:bg-dark sm:mx-2"
             >
               <PinterestIcon />
             </motion.a>
@@ -232,14 +232,14 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
+              className="w-6 mx-3 sm:mx-2"
             >
               <DribbbleIcon />
             </motion.a>
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-2 flex items-center justify-center rounded-full p-1
+              className={`ml-2 md:ml-1 flex items-center justify-center rounded-full p-1
           ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
           `}
             >
