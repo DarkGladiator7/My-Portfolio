@@ -32,7 +32,7 @@ export default function Home() {
                 className="!text-6xl !text-left 
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!5xl sm:!text-3xl md:relative md:left-1.5"
               />
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs md:left-0.5 md:relative">
                 Aspiring software developer with a strong foundation in
                 programming and a passion for creating innovative solutions.
                 Strong analytical and problem-solving skills, with a keen
