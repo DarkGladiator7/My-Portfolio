@@ -127,7 +127,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             className="w-6 mx-3 bg-light rounded-full "
           >
-            <PinterestIcon />
+            <Instagram />
           </motion.a>
           <motion.a
             href="https://dribbble.com/darkgladiator7"
@@ -223,9 +223,9 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3  bg-light rounded-full dark:bg-dark sm:mx-2"
+              className="w-6 mx-3  bg-dark rounded-full dark:bg-dark sm:mx-2"
             >
-              <PinterestIcon />
+              <Instagram />
             </motion.a>
             <motion.a
               href="https://dribbble.com/darkgladiator7"
