@@ -161,7 +161,7 @@ const NavBar = () => {
             opacity: 1,
             transition: { duration: 0.6, type: "spring" },
           }}
-          className="min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32"
+          className=" md:absolute min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32 md:top-[400px] md: md:left-[180px]"
         >
           <nav className=" flex items-center flex-col justify-center">
             <CustomMobileLink
