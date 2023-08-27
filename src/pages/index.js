@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>GaneshK Portfolio</title>
-        <meta name="GaneshK - Portfolio" content="Dive into the captivating portfolio of GaneshK" />
+        <title>GaneshK&apos;s Portfolio</title>
+        <meta name="GaneshK&apos;s - Portfolio" content="Dive into the captivating portfolio of GaneshK" />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
