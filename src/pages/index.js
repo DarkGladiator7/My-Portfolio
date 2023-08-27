@@ -7,13 +7,21 @@ import Link from "next/link";
 import { LinkArrow } from "@/Components/Icons";
 import HireMe from "@/Components/HireMe";
 import bulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
+import { motion } from "framer-motion";
+import TransitionEffect from "@/Components/TransitionEffect";
+
 export default function Home() {
+  const FramerImage = motion(Image);
   return (
     <>
       <Head>
         <title>GaneshK&apos;s Portfolio</title>
-        <meta name="GaneshK&apos;s - Portfolio" content="Dive into the captivating portfolio of GaneshK" />
+        <meta
+          name="GaneshK's - Portfolio"
+          content="Dive into the captivating portfolio of GaneshK"
+        />
       </Head>
+      <TransitionEffect/>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="pt-0 md:pt-16 sm:pt-8">
           <div className="flex items-center justify-between w-full lg:flex-col">
@@ -64,7 +72,18 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className="absolute right-8 bottom-3 inline-block w-24 md:hidden">
-          <Image src={bulb} alt="DG7" className="w-full h-auto "></Image>
+          <Link
+            href="https://www.youtube.com/@darkgladiator7783"
+            target={"_blank"}
+          >
+            <FramerImage
+              src={bulb}
+              alt="DG7"
+              whileHover={{ scale: 1.05, y: -20 }}
+              transition={{ duration: 0.2 }}
+              className="w-full h-auto cursor-pointer "
+            ></FramerImage>
+          </Link>
         </div>
       </main>
     </>

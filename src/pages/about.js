@@ -8,6 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/Components/Skills";
 import Experience from "@/Components/Experience";
 import Education from "@/Components/Education";
+import TransitionEffect from "@/Components/TransitionEffect";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -38,6 +39,7 @@ const about = () => {
         <title>Ganesh K | About Page</title>
         <meta name="About Me" content="Explore about me" />
       </Head>
+      <TransitionEffect/>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText

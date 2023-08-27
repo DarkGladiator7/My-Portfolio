@@ -22,7 +22,7 @@ const Footer = () => {
           </Link>
         </div>
         <Link
-          href="https://www.linkedin.com/in/ganeshkrishnadoss/"
+          href="https://www.instagram.com/_dark_gladiator_7/"
           className="underline underline-offset-2"
           target={"_blank"}
         >

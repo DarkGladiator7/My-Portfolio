@@ -12,6 +12,7 @@ import project3 from "../../public/images/projects/library.jpg";
 import project4 from "../../public/images/projects/portfolio.png";
 import project5 from "../../public/images/projects/gastro.jpg";
 import project6 from "../../public/images/projects/food.png";
+import TransitionEffect from "@/Components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -127,6 +128,7 @@ const projects = () => {
         <title>Ganesh K | Projects Page</title>
         <meta name="Projects" content="Explore my Projects" />
       </Head>
+      <TransitionEffect/>
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
