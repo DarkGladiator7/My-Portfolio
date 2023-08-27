@@ -36,7 +36,7 @@ const about = () => {
     <>
       <Head>
         <title>Ganesh K | About Page</title>
-        <meta name="description" content="any description" />
+        <meta name="About Me" content="Explore about me" />
       </Head>
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
