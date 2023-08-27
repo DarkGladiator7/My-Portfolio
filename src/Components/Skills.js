@@ -30,20 +30,20 @@ const Skills = () => {
         >
           Skills
         </motion.div>
-        <Skill name="Python" x="37vw" y="-11vw" />
+        <Skill name="Python" x="35vw" y="-15vw" />
         <Skill name="SQL" x="17vw" y="-15vw" />
-        <Skill name="Deep Learning" x="30vw" y="-5vw" />
-        <Skill name="Machine Learning" x="19vw" y="5vw" />
+        <Skill name="Deep Learning" x="30vw" y="3vw" />
+        {/* <Skill name="Machine Learning" x="19vw" y="5vw" /> */}
         <Skill name="Numpy" x="20vw" y="14vw" />
         <Skill name="HTML" x="-20vw" y="-2vw" />
         <Skill name="CSS" x="-7vw" y="-11vw" />
         <Skill name="Photoshop" x="-5vw" y="23vw" />
         <Skill name="ReactJS" x="0vw" y="12vw" />
         <Skill name="NextJS" x="-20vw" y="-14vw" />
-        <Skill name="Web Design" x="-40vw" y="-5vw" />
+        {/* <Skill name="Web Design" x="-40vw" y="-5vw" /> */}
         <Skill name="Figma" x="0vw" y="-20vw" />
         <Skill name="Firebase" x="-25vw" y="18vw" />
-        <Skill name="Tailwind CSS" x="-7vw" y="-11vw" />
+        {/* <Skill name="Tailwind CSS" x="-7vw" y="-11vw" /> */}
       </div>
     </>
   );
