@@ -46,10 +46,10 @@ const about = () => {
           />
           <div className="grid w-full grid-cols-8 gap-16 relative pr-20 sm:gap-8">
             <div className="md:relative col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8 md:-right-9">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 md:text-center md:relative md:w-full">
                 About Me
               </h2>
-              <p className="font-medium ">
+              <p className="font-medium md:text-center">
                 Hi I&apos;m Ganesh K, a passionate Deep Learning enthusiast, Web
                 developer and UI/UX designer with a passion for creating
                 beautiful, functional, and user-centered digital experiences.
@@ -57,12 +57,12 @@ const about = () => {
                 new and innovative ways to bring my client&apos;s visions to
                 life.
               </p>
-              <p className="my-4 font-medium ">
+              <p className="my-4 font-medium  md:text-center">
                 I believe that design is about more than just making things look
                 pretty - it&apos;s about solving problems and creating
                 intuitive, enjoyable experiences for users
               </p>
-              <p className="font-medium ">
+              <p className="font-medium  md:text-center">
                 Whether I&apos;m working on a website, or other digital product,
                 I bring my commitment to design excellence and user-centered
                 thinking to every project I work on. I look forward to the
