@@ -11,13 +11,14 @@ const articles = () => {
         <title>Ganesh K | Arictles Page</title>
         <meta name="Articles" content="Explore my Articles" />
       </Head>
-      <TransitionEffect/>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center">
-        <Layout className="pt-16">
+        <Layout className="pt-16 min-h-screen flex flex-col">
           <AnimatedText
-            className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
+            className="mb-16 2xl:!text-9xl md:!text-7xl s:!text-6xl xs:!text-5xl"
             text="Yet To Publish :)"
           />
+          
         </Layout>
       </main>
     </>
