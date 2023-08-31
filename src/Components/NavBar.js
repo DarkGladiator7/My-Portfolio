@@ -246,7 +246,7 @@ const NavBar = () => {
               {mode === "dark" ? (
                 <SunIcon className="fill-dark sm:!w-4 sm:!h-4" />
               ) : (
-                <MoonIcon className="fill-dark" />
+                <MoonIcon className="fill-dark sm:!w-4 sm:!h-4" />
               )}
             </motion.button>
           </nav>
