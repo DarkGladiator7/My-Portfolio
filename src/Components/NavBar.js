@@ -244,7 +244,7 @@ const NavBar = () => {
           `}
             >
               {mode === "dark" ? (
-                <SunIcon className="fill-dark sm:!w-3 sm:!h-3" />
+                <SunIcon className="fill-dark sm:!w-4 sm:!h-4" />
               ) : (
                 <MoonIcon className="fill-dark" />
               )}
