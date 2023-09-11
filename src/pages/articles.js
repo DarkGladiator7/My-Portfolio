@@ -16,7 +16,7 @@ const articles = () => {
         <Layout className="pt-16 min-h-screen flex flex-col">
           <AnimatedText
             className="mb-16 2xl:!text-9xl md:!text-7xl s:!text-6xl xs:!text-5xl"
-            text="Yet To Publish :)"
+            text="Under Development:)"
           />
           
         </Layout>

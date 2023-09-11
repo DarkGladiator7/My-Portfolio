@@ -19,7 +19,7 @@ const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
 
   return (
-    <Link href={href} className={`${className} relative group`}>
+    <Link href={href} className={`${className} relative group text-base`}>
       {title}
       <span
         className={`h-[1px] inline-block  bg-dark absolute left-0 -bottom-0.5 group-hover:w-full transition-[width] ease duration-300
@@ -86,19 +86,20 @@ const NavBar = () => {
       </button>
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
-          <CustomLink href="/" title="Home" className="mr-4 " />
-          <CustomLink href="/about" title="About" className="mx-4" />
-          <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          <CustomLink href="/" title="Home" className="mr-4 -ml-20 " />
+          <CustomLink href="/about" title="Career Catalyst" className="mx-4" />
+          <CustomLink href="/projects" title="Resources" className="mx-4" />
+          <CustomLink href="/analytics" title="Analytics" className="mx-4" />
+          <CustomLink href="/articles" title="Code and Learn" className="ml-4" />
         </nav>
 
-        <nav className="flex items-center justify-center flex-wrap">
+        <nav className=" absolute right-16 flex items-center justify-center flex-wrap">
           <motion.a
             href="https://twitter.com/DGladiator7"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
+            className="w-6 mx-3 "
           >
             <TwitterIcon />
           </motion.a>
