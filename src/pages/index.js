@@ -49,7 +49,7 @@ export default function Home() {
     animate={{
       scale: 1,
       opacity: 1,
-      transition: { duration: 0.6, type: "spring" },
+      transition: { duration: 0.6, type: "spring" }, 
     }}
     className="  min-w-[45vw] gap-4 flex flex-col justify-between z-30  items-center fixed top-1/2 left-1/2 rounded-2xl  -translate-x-1/2 -translate-y-1/2 bg-dark/90 dark:bg-light/75  backdrop-blur-md py-10"
   >
