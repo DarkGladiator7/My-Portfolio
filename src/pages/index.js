@@ -72,10 +72,7 @@ export default function Home() {
         </Layout>
         <HireMe />
         <div className="absolute right-5 bottom-3 inline-block w-24 md:hidden">
-          <Link
-            href="https://www.youtube.com/@darkgladiator7783"
-            target={"_blank"}
-          >
+          <Link href="https://www.youtube.com/@darkglady007" target={"_blank"}>
             <FramerImage
               src={bulb}
               alt="DG7"
