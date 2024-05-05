@@ -22,7 +22,7 @@ const Logo = () => {
           transition: { duration: 1, repeat: Infinity },
         }}
       >
-        G-Edu
+        GK
       </MotionLink>
     </div>
   );
